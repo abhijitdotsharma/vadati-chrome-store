@@ -1,0 +1,51 @@
+.enquire{
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.enquire__form{
+    background-color: cadetblue;
+    /* width: 600px; */
+    min-width: 600px;
+}
+
+.enquire__heading{
+    /* margin: 1rem auto; */
+    margin-left: 10%;
+    font-size: 3.6rem;
+}
+
+.enquire__input{
+    border: 1px solid;
+    display: block;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 55%; 
+    outline: none;
+    padding: 0 4rem;
+    font-size: 1.2rem;
+    text-align: center; /* For input text to start from center*/
+    margin: 0rem auto;
+}
+
+.enquire__submit{
+    /* background-color: brown; */
+    display: block;
+    margin: 1rem auto;
+    color: black;
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+
+@media screen and (max-width: 40em) {
+    
+    .enquire__form{
+        min-width: 400px;
+    }
+}
