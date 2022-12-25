@@ -1,0 +1,10 @@
+.weather{
+    width: 100%;
+}
+
+.weather__text{
+    font-size: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 2rem;
+}

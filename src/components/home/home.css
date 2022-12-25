@@ -1,0 +1,91 @@
+div, input, p{
+    color: white;
+}
+.container-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.486);
+}
+
+
+
+/* CENTER */
+
+.region-center{
+    width: 60%;
+    text-align: center;
+    padding: 1em;
+    margin: 0 auto;
+}
+
+.time{
+    margin: 1rem auto;
+    font-size: 8rem;
+}
+
+.greet{
+    margin: 1rem auto;
+    margin-top: -2rem; /* HACK | to bring time and greet closer and time and focus-label far*/
+    
+    font-size: 3.6rem;
+}
+.focus__label{
+    font-size: 1.4rem;    
+}
+.focus__input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 45%; /* HACK | To match the label text width */
+    outline: none;
+    padding: 0 4rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.focus__task{
+    margin: 0.4rem auto;
+    font-size: 1.4rem;
+}
+
+
+/* FOOTER */
+.region-footer{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0.4rem;
+}
+
+.footer-main{
+    margin: 0 auto;
+    max-inline-size: 70ch;
+}
+
+.footer-main__quote{
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+.footer-main__author{
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 40em) {
+    .region-center{
+        width: 80%;
+    }
+}
