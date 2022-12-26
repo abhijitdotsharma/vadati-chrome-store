@@ -4,7 +4,7 @@
 
  ## How It's Made : 
  ### Tech used : 
- - HTML, CSS, JavaScript
+ - HTML, **BEM CSS**, JavaScript
  - React JS
  - localstorage API, with **useLocalStorage hook**
  - Unsplash API, OpenWeatherAPI
