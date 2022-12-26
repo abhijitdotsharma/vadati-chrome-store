@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Vadati
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ Vadati: The chrome extension for focused, distraction-free productivity.
 
-## Available Scripts
+ ## How It's Made : 
+ ### Tech used : 
+ - HTML, CSS, JavaScript
+ - React JS
+ - localstorage API, with **useLocalStorage hook**
+ - Unsplash API, OpenWeatherAPI
+ - **Voice to Text** using **SpeechSynthesisAPI** which will be published as an **npm package** soon
+  
+ 
+ ### Motivation:
+ As a programmer, I often spend a lot of time using my browser and integrated development environment (IDE). However, I found the default browser (Edge/Chrome) to be visually unappealing and rarely used the search bar.
+ <br>
+ <br>
+ In search of a better extension, I stumbled upon [momentum](https://momentumdash.com/). While it was helpful, it had too many unnecessary features and seemed cluttered. 
+ I decided to create my own extension, incorporating a **voice input feature** for convenience. This led to the development of Vadati, a chrome extension designed to **remove distractions** and help users **focus on a single task**.
 
-In the project directory, you can run:
+ P.S. - Vadati in sanskrit means speaking :grin:
 
-### `npm start`
+ ### Lessons Learned : 
+ - The importance of simplicity and user experience while implementing the local storage auth 
+ - The value of leveraging API's and third-party services
+ - Use of env variables, and how to store and manage them secretly while deploying  
+ 
+ ## Future Improvments:
+ 
+ - Optimize the loading of background images by implementing lazy loading.
+ - Host and serve optimized images through a cloud service like Cloudinary rather than using the Unsplash API.
+ - Add a to-do list feature in the bottom-right corner for tracking additional tasks.
+ - Implement a Google login feature to store daily progress.
+ - Research and consider alternative approaches to using the useEffect hook for fetching images and weather data."
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## Links
+ [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://abhijit.super.site/)
+ [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhijitdotsharma/)
+ [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/abhi_exe)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
