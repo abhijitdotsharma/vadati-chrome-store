@@ -26,7 +26,6 @@ export default function Enquire({ user, setUser }) {
         
 
     }
-    console.log('after setIsLoggedIn - ', user?.isLoggedIn)
 
     return (
         <div className="enquire">
