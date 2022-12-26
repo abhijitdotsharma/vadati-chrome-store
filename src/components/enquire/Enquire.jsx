@@ -44,7 +44,7 @@ export default function Enquire({ user, setUser }) {
                 <button 
                 className="enquire__submit btn btn-large btn-primary"
                 onClick={submitHandler}
-                >Primary</button>
+                >Let's Go</button>
             </form>
         </div>
     )
