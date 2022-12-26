@@ -1,6 +1,6 @@
 # Vadati
 
- Vadati: The chrome extension for focused, distraction-free productivity.
+ [Vadati](https://vadati.netlify.app/) -  The chrome extension for focused, distraction-free productivity.
 
  ## How It's Made : 
  ### Tech used : 
