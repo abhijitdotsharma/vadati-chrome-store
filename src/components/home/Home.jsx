@@ -24,7 +24,6 @@ export default function Home({ user, setUser }) {
             alert("enter valid task");
 
         } else {
-            console.log('submitted', focusTxt)
             setUser("focus", focusTxt)
         }
         setFocusTxt('')

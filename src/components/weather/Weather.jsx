@@ -30,11 +30,11 @@ export default function Weather() {
             .then(res => res.json())
             .then(data => {
                 setTemp(data.main.temp)
-                console.log(data)
             })
             .catch(err => console.log("err in weather - ", err))
     }
 
+    console.log("weather keys", process.env.REACT_APP_OPENWEATHER_API_KEY)
 
     useEffect(() => {
         getLocationThenWeather()        

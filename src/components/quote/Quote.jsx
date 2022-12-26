@@ -10,7 +10,6 @@ export default function Quote(){
             const data = await resQuotes.json();
             const item = data[Math.floor(Math.random() * data.length)];
             setQuote(prev => ({...prev, text: item.text, author: item.author }));
-            console.log(item);
           })();
     }, [])
 

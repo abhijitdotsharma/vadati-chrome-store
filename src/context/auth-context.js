@@ -45,8 +45,6 @@ const useLocalStorage = (key, defaultObject) => {
     //setUser - sets isLoggedIn to true and userName 
     const setValue = (property, newValue) => {
 
-        console.log("setValue called")
-        console.log("property - ", property, "newValue", newValue)
         try {
             updateLocalStorage(property, newValue)
             setStoredValue(prev => ({...prev, isLoggedIn: true, [property]: newValue}))            
