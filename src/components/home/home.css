@@ -54,10 +54,23 @@ div, input, p{
     text-align: center;
 }
 
+.focus__mic{
+    background: none;
+}
+
+.mic--on{
+    font-size: 1rem;
+    color:white;
+}
+.mic--off{
+    font-size: 1rem;
+    color: white;
+}
 
 .focus__task{
     margin: 0.4rem auto;
     font-size: 1.4rem;
+    font-weight: 600;
 }
 
 
