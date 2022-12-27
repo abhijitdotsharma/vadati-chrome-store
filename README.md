@@ -8,7 +8,7 @@
  - React JS
  - localstorage API, with **useLocalStorage hook**
  - Unsplash API, OpenWeatherAPI
- - **Voice to Text** using **SpeechSynthesisAPI** which will be published as an **npm package** soon
+ - **Voice to Text** using **SpeechSynthesisAPI** which is published as a light **npm package** for others to [use](https://www.npmjs.com/package/react-vocalize)
   
  
  ### Motivation:
