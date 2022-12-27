@@ -26,7 +26,6 @@ const VoiceProvider = ({children}) => {
         }
 
         mic.onresult = (event) => {
-            console.log(event)
             const transcript = Array.from(event.results)
                 .map((result) => {
                     // SpeechRecognitionResult from the SpeechRecognitionResultList
